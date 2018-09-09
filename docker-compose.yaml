@@ -19,6 +19,8 @@ services:
       TS3SERVER_LICENSE: accept
     volumes:
       - ./ts_volume:/var/ts3server/
+    depends_on:
+      - db
   db:
     image: mariadb
     restart: always
