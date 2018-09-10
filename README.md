@@ -1,2 +1,14 @@
 # teamspeak3 docker-compose
-Edit `.edit` file and change your password!!
+Change your database password!!
+
+## Usage
+
+### Build and Up as a daemon
+```
+make
+```
+
+### clean
+```
+make clean
+```
